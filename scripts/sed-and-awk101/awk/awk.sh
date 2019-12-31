@@ -85,6 +85,12 @@ awk -F ',' '{$4++; print $4}' employee-sal.txt
 
 
 
+#
+awk -F ',' '{ if($5 <= 5) print "Only",$5,"qty of ",$2,"is available";}' items.txt
+
+#print pretty printf
+# \n 新起一行 \t=tab \b=backspace
+awk 'BEGIN {printf "line1\nline2\n"}'
 
 
 
