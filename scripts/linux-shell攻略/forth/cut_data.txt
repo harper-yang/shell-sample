@@ -1,0 +1,4 @@
+no	name	mark	percent
+1	harper	11	90
+2	nancy	12	10
+3	harper 	11	90
